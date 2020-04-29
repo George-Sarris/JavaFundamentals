@@ -12,7 +12,8 @@ public class Basket {
 
     private ArrayList<Product> products = new ArrayList<>();
 
-    public void addProduct(Product product){
+    public void addProduct(Product product)
+    {
         products.add(product);
     }
 

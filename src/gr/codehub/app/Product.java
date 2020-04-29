@@ -72,14 +72,12 @@ public class Product {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass() ) return false;
          Product product = (Product) o;
-        return Float.compare(product.price, price) == 0 &&
-                quantity == product.quantity &&
-                Objects.equals(code, product.code) &&
-                Objects.equals(name, product.name);
+        return Float.compare(product.price, price) == 0 &&quantity == product.quantity && Objects.equals(code, product.code) &&  Objects.equals(name, product.name);
     }
 
     @Override
     public int hashCode() {
+
         return Objects.hash(code, name, price, quantity);
     }
 }
