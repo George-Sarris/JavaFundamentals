@@ -12,19 +12,18 @@ public class Basket {
 
     private ArrayList<Product> products = new ArrayList<>();
 
-    public void addProduct(Product product)
-    {
+    public void addProduct(Product product) {
         products.add(product);
     }
 
-    public void  displayProducts (){
+    public void displayProducts (){
 
 //        for(Product p : products){
 //            System.out.println(p);
 //        }
 
 
-   //     System.out.println(products);
+   //     System.out.println(pr oducts);
 
 
         // printing using lambda calculus
